@@ -1,0 +1,74 @@
+button {
+
+  font-weight: bold;
+  display: inline-block;
+
+  margin-bottom: 0.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  color: #fff;
+  background-color: #7176b4be;
+  border-radius: 5px;
+  border: solid #130f0f 1px;
+  clear: right;
+
+}
+
+body {
+  text-shadow: 2px 1px #2b2222;
+  ;
+  color: aliceblue;
+  background-color: rgb(30, 97, 97);
+  background-image: url("https://media.istockphoto.com/photos/house-living-smart-home-picture-id1312912134?b=1&k=20&m=1312912134&s=170667a&w=0&h=ecFwgvgN-tSumdl8O_K8HXqXLdWCdHERsPYSDu2y7wo=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'lato', sans-serif;
+  background-size: 100%;
+  background-repeat: repeat;
+  margin: 0 auto
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-header {
+  background-color: #7aedf56c;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+
+div {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+tr {
+  background-color: #c3dcf86c;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+th {
+
+  padding: 10px 0;
+  text-align: right;
+
+}
+
+img {
+  height: 250 px;
+  width: 100px;
+}
+
+.items{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
