@@ -4,10 +4,10 @@ import './App.css';
 import HomePage from './component/HomePage';
 import AddRoomPage from './component/AddRoomPage';
 import Header from './component/Header';
-import AddDecoPage from './component/AddDecoPage';
 import EditRoom from './component/EditRoom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import MyRooms from './component/MyRooms';
+
 
 
 function App() {
