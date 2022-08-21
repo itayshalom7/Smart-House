@@ -9,9 +9,9 @@ export default function (props) {
   }
   let printI = () => {
     if (!props.item.status)
-      return <img className='items' src="/buttons/off.png" onClick={changeStatus}></img>
+      return <img className='items' src={process.env.PUBLIC_URL+"/buttons/off.png"} onClick={changeStatus}></img>
     else
-      return <img className='items' src="/buttons/on.png" onClick={changeStatus}></img>
+      return <img className='items' src={process.env.PUBLIC_URL+"/buttons/on.png"} onClick={changeStatus}></img>
   }
   return (
     <div>
