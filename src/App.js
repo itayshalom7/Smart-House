@@ -7,7 +7,6 @@ import Header from './component/Header';
 import EditRoom from './component/EditRoom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyRooms from './component/MyRooms';
-import {HashRouter as Router,Switch,Route,Link} from 'react-router-dom';
 
 
 function App() {
